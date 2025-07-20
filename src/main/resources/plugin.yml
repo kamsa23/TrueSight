@@ -1,0 +1,10 @@
+name: TrueSight
+main: me.kamsa23.trueSight.TrueSight
+version: 1.0
+api-version: 1.19
+depend: [ProtocolLib]
+commands:
+  truesight:
+    description: Main command for TrueSight
+    usage: /truesight [reload|toggle|logs|punish|setback|test|info|debug|help]
+    permission: truesight.admin

@@ -1,0 +1,7 @@
+staff-alerts:
+  enabled: true
+  format: "%prefix% &c%player% &7flagged for &e%check%&7."
+
+console-alerts:
+  enabled: true
+  format: "[TrueSight] %player% flagged for %check%"

@@ -1,0 +1,145 @@
+# Combat
+KillAuraA:
+  type: command
+  command: "kick %player% KillAuraA detected by TrueSight"
+KillAuraB:
+  type: command
+  command: "kick %player% KillAuraB detected by TrueSight"
+KillAuraC:
+  type: command
+  command: "kick %player% KillAuraC detected by TrueSight"
+ReachA:
+  type: command
+  command: "kick %player% ReachA detected by TrueSight"
+ReachB:
+  type: command
+  command: "kick %player% ReachB detected by TrueSight"
+RotationSpoof:
+  type: command
+  command: "kick %player% RotationSpoof detected by TrueSight"
+MultiHit:
+  type: command
+  command: "kick %player% MultiHit detected by TrueSight"
+CriticalsSpoof:
+  type: command
+  command: "kick %player% CriticalsSpoof detected by TrueSight"
+WallHit:
+  type: command
+  command: "kick %player% WallHit detected by TrueSight"
+CrystalAura:
+  type: command
+  command: "kick %player% CrystalAura detected by TrueSight"
+AnchorAura:
+  type: command
+  command: "kick %player% AnchorAura detected by TrueSight"
+PingSpoof:
+  type: command
+  command: "kick %player% PingSpoof detected by TrueSight"
+ShieldBypass:
+  type: command
+  command: "kick %player% ShieldBypass detected by TrueSight"
+SilentAura:
+  type: command
+  command: "kick %player% SilentAura detected by TrueSight"
+PreAim:
+  type: command
+  command: "kick %player% PreAim detected by TrueSight"
+HitboxDesync:
+  type: command
+  command: "kick %player% HitboxDesync detected by TrueSight"
+SwingDesync:
+  type: command
+  command: "kick %player% SwingDesync detected by TrueSight"
+InvalidAttackPacket:
+  type: command
+  command: "kick %player% InvalidAttackPacket detected by TrueSight"
+
+# Movement
+FlyA:
+  type: none
+FlyB:
+  type: none
+FlyC:
+  type: none
+FlyD:
+  type: none
+SpeedA:
+  type: none
+SpeedB:
+  type: none
+SpeedC:
+  type: none
+NoFallA:
+  type: none
+NoFallB:
+  type: none
+StepCheck:
+  type: none
+PhaseA:
+  type: none
+PhaseB:
+  type: none
+WaterWalk:
+  type: none
+GroundSpoof:
+  type: none
+TimerManip:
+  type: none
+TeleportSpoof:
+  type: none
+StrafeCheck:
+  type: none
+InvalidYMotion:
+  type: none
+InvalidXZMotion:
+  type: none
+JumpBoostSpoof:
+  type: none
+
+# Misc
+FastBreak:
+  type: none
+InstantMine:
+  type: none
+GhostBlock:
+  type: none
+InventorySpoof:
+  type: none
+IllegalItemUse:
+  type: none
+PacketFlood:
+  type: command
+  command: "kick %player% PacketFlood detected by TrueSight"
+NoSlow:
+  type: none
+SneakSpoof:
+  type: none
+SprintSpoof:
+  type: none
+ElytraSpoof:
+  type: none
+BlockPlaceDesync:
+  type: none
+BlockBreakDesync:
+  type: none
+VelocitySpoof:
+  type: none
+PotionEffectSpoof:
+  type: none
+EntityDesync:
+  type: none
+FakeTeleport:
+  type: none
+
+# Exploits
+AntiBotJoin:
+  type: kick
+  message: "Too many login attempts."
+PacketThrottle:
+  type: kick
+  message: "Packet spam detected."
+CrashPacketFilter:
+  type: kick
+  message: "Invalid packets detected."
+BookExploitBlocker:
+  type: none

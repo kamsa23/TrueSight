@@ -1,0 +1,251 @@
+# TrueSight Configuration
+# Contact / Help:
+#   Discord: therealryn
+
+settings:
+  contact:
+    discord: "therealryn"
+  log-to-file: true
+  auto-punish: true
+  flag-threshold: 10
+  punish-delay: "2s"
+  alert-staff: true
+  setback-enabled: true
+
+checks:
+  combat:
+    KillAuraA:
+      enabled: true
+      punish: true
+      setback: false
+    KillAuraB:
+      enabled: true
+      punish: true
+      setback: false
+    KillAuraC:
+      enabled: true
+      punish: true
+      setback: false
+    ReachA:
+      enabled: true
+      punish: true
+      setback: false
+    ReachB:
+      enabled: true
+      punish: true
+      setback: false
+    RotationSpoof:
+      enabled: true
+      punish: true
+      setback: false
+    MultiHit:
+      enabled: true
+      punish: true
+      setback: false
+    CriticalsSpoof:
+      enabled: true
+      punish: true
+      setback: false
+    WallHit:
+      enabled: true
+      punish: true
+      setback: false
+    CrystalAura:
+      enabled: true
+      punish: true
+      setback: false
+    AnchorAura:
+      enabled: true
+      punish: true
+      setback: false
+    PingSpoof:
+      enabled: true
+      punish: true
+      setback: false
+    ShieldBypass:
+      enabled: true
+      punish: true
+      setback: false
+    SilentAura:
+      enabled: true
+      punish: true
+      setback: false
+    PreAim:
+      enabled: true
+      punish: true
+      setback: false
+    HitboxDesync:
+      enabled: true
+      punish: true
+      setback: false
+    SwingDesync:
+      enabled: true
+      punish: true
+      setback: false
+    InvalidAttackPacket:
+      enabled: true
+      punish: true
+      setback: false
+
+  movement:
+    FlyA:
+      enabled: true
+      punish: false
+      setback: true
+    FlyB:
+      enabled: true
+      punish: false
+      setback: true
+    FlyC:
+      enabled: true
+      punish: false
+      setback: true
+    FlyD:
+      enabled: true
+      punish: false
+      setback: true
+    SpeedA:
+      enabled: true
+      punish: false
+      setback: true
+    SpeedB:
+      enabled: true
+      punish: false
+      setback: true
+    SpeedC:
+      enabled: true
+      punish: false
+      setback: true
+    NoFallA:
+      enabled: true
+      punish: false
+      setback: true
+    NoFallB:
+      enabled: true
+      punish: false
+      setback: true
+    StepCheck:
+      enabled: true
+      punish: false
+      setback: true
+    PhaseA:
+      enabled: true
+      punish: false
+      setback: true
+    PhaseB:
+      enabled: true
+      punish: false
+      setback: true
+    WaterWalk:
+      enabled: true
+      punish: false
+      setback: true
+    GroundSpoof:
+      enabled: true
+      punish: false
+      setback: true
+    TimerManip:
+      enabled: true
+      punish: false
+      setback: true
+    TeleportSpoof:
+      enabled: true
+      punish: false
+      setback: true
+    StrafeCheck:
+      enabled: true
+      punish: false
+      setback: true
+    InvalidYMotion:
+      enabled: true
+      punish: false
+      setback: true
+    InvalidXZMotion:
+      enabled: true
+      punish: false
+      setback: true
+    JumpBoostSpoof:
+      enabled: true
+      punish: false
+      setback: true
+
+  misc:
+    FastBreak:
+      enabled: true
+      punish: false
+      setback: false
+    InstantMine:
+      enabled: true
+      punish: false
+      setback: false
+    GhostBlock:
+      enabled: true
+      punish: false
+      setback: false
+    InventorySpoof:
+      enabled: true
+      punish: false
+      setback: false
+    IllegalItemUse:
+      enabled: true
+      punish: false
+      setback: false
+    PacketFlood:
+      enabled: true
+      punish: true
+      setback: false
+    NoSlow:
+      enabled: true
+      punish: false
+      setback: false
+    SneakSpoof:
+      enabled: true
+      punish: false
+      setback: false
+    SprintSpoof:
+      enabled: true
+      punish: false
+      setback: false
+    ElytraSpoof:
+      enabled: true
+      punish: false
+      setback: false
+    BlockPlaceDesync:
+      enabled: true
+      punish: false
+      setback: false
+    BlockBreakDesync:
+      enabled: true
+      punish: false
+      setback: false
+    VelocitySpoof:
+      enabled: true
+      punish: false
+      setback: false
+    PotionEffectSpoof:
+      enabled: true
+      punish: false
+      setback: false
+    EntityDesync:
+      enabled: true
+      punish: false
+      setback: false
+    FakeTeleport:
+      enabled: true
+      punish: false
+      setback: false
+
+  exploits:
+    AntiBotJoin:
+      max-attempts: 3
+      window-ms: 30000
+    PacketThrottle:
+      max-packets: 100
+      window-ms: 1000
+      kick-message: "Too many packets sent."
+    CrashPacketFilter:
+      max-payload-bytes: 32767
+      kick-message: "Invalid packet detected."
+    BookExploitBlocker:
+      max-pages: 50
+      max-page-length: 256
